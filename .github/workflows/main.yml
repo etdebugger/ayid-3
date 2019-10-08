@@ -13,5 +13,5 @@ jobs:
       run: ifconfig -a
     - name: Run a multi-line script
       run: |
-          cd /data/instancename/
+          cd /data/
           ls -ltr
