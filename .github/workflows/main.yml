@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: ls -ltr /etc/network/inter*
+      run: cat /etc/network/interfaces
     - name: Run a one-line script
       run: ifconfig -a
     - name: Run a multi-line script
