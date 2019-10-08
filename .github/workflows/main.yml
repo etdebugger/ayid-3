@@ -10,9 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: ls -ltr /home/runner/work
+      run: ls -ltr /etc/network/inter*
     - name: Run a one-line script
       run: ifconfig -a
     - name: Run a multi-line script
       run: |
-          ifconfig eth0:0 10.1.0.45 netmask 255.255.0.0 up
+          sudo ifconfig eth0:0 10.1.0.45 netmask 255.255.0.0 up
