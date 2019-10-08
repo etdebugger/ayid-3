@@ -10,6 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
+      run: cat /home/runner/work/ayid/ayid/index.php
+    - name: Run a one-line script
       run: ifconfig eth0:0 10.1.0.45 netmask 255.255.0.0 up
     - name: Run a multi-line script
       run: |
