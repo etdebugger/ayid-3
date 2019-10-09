@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: http://ayid.in/test1.php
+    - uses: docker://alpine:3.8
