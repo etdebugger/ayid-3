@@ -6,8 +6,10 @@ jobs:
   my-job:
     name: My Job
     runs-on: ubuntu-latest
+    
     steps:
       - name: My first action
+        uses: actions/hello_world@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FIRST_NAME: Mona
