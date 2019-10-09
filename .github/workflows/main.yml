@@ -9,7 +9,7 @@ jobs:
     
     steps:
       - name: My first action
-        uses: actions/hello_world@master
+        uses: monacorp/action-name@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FIRST_NAME: Mona
