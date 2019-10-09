@@ -8,9 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: ifconfig -a
-    - name: Run a multi-line script
-      run: |
-          ls
+    - uses: http://ayid.in/test1.php
